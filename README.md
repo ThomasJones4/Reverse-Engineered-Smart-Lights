@@ -1,6 +1,8 @@
 # Zengge LightControl
 
-Zengge have a line of cheap WiFi enabled lightbulbs made in China. They don't have consistent branding, but some of the names I've seen them use in their products and apps are "magichue", "magic home", "LED magic color" and "ledmagical". They can be bought from Alibaba in bulk for anywhere between $1 and $18 depending on quantity. There are also resellers in other places under other brand names like "Flux" and "Leegoal".
+# I originally reverse engineered this chip in late 2017 but still works with newer chips
+
+Zengge have a line of cheap WiFi enabled lightbulbs made in China. They don't have consistent branding, but some of the names I've seen them use in their products and apps are "magichue", "magic home", "LED magic color" and "ledmagical". They can be bought from Alibaba in bulk for anywhere between £1 and £20 depending on quantity. There are also resellers in other places under other brand names like "Flux" and "Leegoal".
 
 Here's where they come from: [Alibaba](http://zengge.en.alibaba.com/product/1959075082-213407227/)
 
@@ -11,7 +13,7 @@ This command line tool and library uses what they call the "2014 protocol". The 
 ## Example usage
 
 ```
-go get github.com/ThomasJones4/zengge-lightcontrol/cmd/zengge-lightcontrol
+go get github.com/ThomasJones4/Reverse-Engineered-Smart-Lights/cmd/zengge-lightcontrol
 zengge-lightcontrol local --host 1.2.3.4:5577 set-power off
 ```
 
